@@ -1,37 +1,27 @@
-## Welcome to GitHub Pages
+# OpenWrt-Youku_L2
+Auto build OpenWrt firmware for Youku L2 via GitHub Actions
 
-You can use the [editor on GitHub](https://github.com/cnbbx/OpenWrt-Youku_L2/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/cnbbx/OpenWrt-Youku_L2?style=for-the-badge&label=Download)](https://github.com/cnbbx/OpenWrt-Youku_L2/releases/latest)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# 路由器使用说明
+路由器IP地址：192.168.11.1
+账号：root   密码：password
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/cnbbx/OpenWrt-Youku_L2/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+# 安装的插件列表
+| 插件名称 | 插件说明 |
+| ------- | ------- |
+|  luci-app-accesscontrol  |  访问时间控制  |
+|  luci-app-filetransfer  |  文件传输（可web安装ipk包）  |
+|  luci-app-firewall  |  添加防火墙  |
+|  luci-app-nlbwmon  |  网络带宽监视器  |
+|  luci-app-adbyby-plus    |   广告屏蔽大师Plus +  |
+|  luci-app-syncdial    |  多拨虚拟网卡（原macvlan）  |
+|  luci-app-mwan3    |  MWAN3负载均衡  |
+|  luci-app-ssr-plus    |  SSR科学上网Plus+  |
+|  luci-app-wifischedule    |  WiFi 计划   |
+|  Turbo ACC  |  网络加速设置  |
+|  ipv6helper  |  支持 iPv6  |
+|  DDNS  |  支持  |
+|  KMS  |  支持  |
+|  UDP  |  支持  |
+|  FTP  |  支持  |
