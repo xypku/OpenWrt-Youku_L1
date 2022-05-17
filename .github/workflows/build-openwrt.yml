@@ -14,11 +14,11 @@ env:
   CONFIG_FILE: config.seed
   DIY_P1_SH: first.sh
   DIY_P2_SH: second.sh
-  UPLOAD_BIN_DIR: true
+  UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER: false
-  UPLOAD_WETRANSFER: true
-  UPLOAD_RELEASE: true
+  UPLOAD_WETRANSFER: false
+  UPLOAD_RELEASE: false
   TZ: Asia/Shanghai
 
 on:
@@ -29,8 +29,7 @@ on:
         description: 'SSH connection to Actions'
         required: false
         default: 'false'
-  schedule:
- 
+
 
 jobs:
   build:
