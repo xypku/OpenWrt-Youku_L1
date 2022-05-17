@@ -11,7 +11,7 @@ env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: config.seed
+  CONFIG_FILE: youku.config
   DIY_P1_SH: first.sh
   DIY_P2_SH: second.sh
   UPLOAD_BIN_DIR: false
